@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aplicacion de escritorio</title>
+	<style>
+		h2{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<h1>Esto es una aplicacion</h1>
+	<h2>Hola jijiji</h2>
+	<button>Oprimeme</button>
+	<script>
+		document.querySelector('button').addEventListener('click', function(){
+			document.querySelector('h2').style.display = "block";
+		});
+	</script>
+</body>
+</html>
